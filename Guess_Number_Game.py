@@ -3,7 +3,6 @@ print('\nBan co 5 luot doan')
 import random
 import numpy as np
 number = np.random.randint(low =1,high = 100)
-print(number)
 guess=input('Nhap so ban doan trong khoang tu (1,100): ')
 guess = int(guess)
 i=1
